@@ -6,7 +6,9 @@ import {
   NavigationMenuTrigger,
   NavigationMenuContent,
 } from "@/components/ui/navigation-menu";
-import { BoxIcon, TagIcon } from "lucide-react"; // Ajusta según cómo importes los íconos
+import { BoxIcon, TagIcon } from "lucide-react";
+import { Login } from "./Login";
+import { Register } from "./Register";
 
 export function App() {
   return (
@@ -43,6 +45,8 @@ export function App() {
             </NavigationMenuList>
           </NavigationMenu>
         </nav>
+        <Login />
+        <Register />
       </div>
     </header>
   );
